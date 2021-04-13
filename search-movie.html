@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+
+  <main>
+    <div class="container mt-3">
+      <h1 class="h3 p-4 text-center mb-3">Here you can find the movies which you need</h1>
+    </div>
+
+    <div class="container">
+        <form class="js-search-form" action="#" method="POST">
+          <label for="search-input">Search a movie: </label>
+          <input class="form-control js-search-input" type="text" name="search-input" autocomplete="off" id="search-input" aria-label="search movie" placeholder="Avengers: The End" required>
+        </form>
+
+        <ul class="js-movies-list row list-unstyled mt-3">
+          
+        </ul>
+
+
+    </div>
+  </main>
+
+        <template id="movie-template">
+            <li class="movie col-12 text-centermt-3 mb-3"> 
+              <div class="card p-4">
+                <img class="card-img "  src="" alt="" width="400px" height="300px">
+                <h4 class="card-title mt-2">Patton Oswalt: Annihilation</h4>
+                <p class="card-year">Year: 2017</p>
+                <div class="card-body">
+                  <p class="card-category"></p>
+                  <p class="card-summary"></p>
+                  <p class="card-rating"></p>
+                  <p class="card-runtime"></p>
+                  <p class="card-language"></p>
+                  <a class="card-link" target="_blank">Watch Trailer</a>
+                </div>
+              </div>
+            </li>
+        </template>
+  
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./js/utilis.js"></script>
+  <script src="./js/movies.js"></script>
+  <script src="./js/search-movie.js"></script>
+
+</body>
+</html>
