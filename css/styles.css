@@ -1,0 +1,7 @@
+.card-img {
+    object-fit: contain;
+    object-position: center left;
+}
+.card__summary--bold {
+    font-weight: bold;
+}
